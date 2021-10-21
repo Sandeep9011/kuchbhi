@@ -1,0 +1,62 @@
+body{
+    height:100vh;
+   background-image: linear-gradient(rgb(58, 141, 106),purple);
+} 
+.logo{
+    display:block;
+    margin:auto;
+    width:50px;
+    height:50px;
+
+}
+
+.container{
+    max-width: 955px;
+    border:2px solid black;
+    /* background-color:red; */
+    margin: auto;   /*for center*/ 
+    height:60vh;
+    padding:33px;
+    overflow-y: auto;
+    margin-bottom:23px;
+    
+}
+
+.message{
+    background-color: azure;
+    width:24%;
+    padding:10px;
+    margin:17px 12px;
+    border:2px solid black;
+    border-radius:10px;
+}
+
+.left{
+    float:left;
+    clear:both;
+}
+
+.right{
+    float:right;
+    clear:both;
+}
+
+#send-container{
+     display:block; 
+     margin:auto; 
+    text-align:center;
+    max-width:900px;
+    width:100%;
+}
+#messageInp{
+    width:92%;
+    border:2px sloid black;
+    border-radius:6px;
+    height:34px;
+}
+.btn{
+    cursor:pointer;
+    border:2px solid black;
+    border-radius:6px;
+    height:34px;
+}
